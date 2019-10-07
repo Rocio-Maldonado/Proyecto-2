@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aplicaciones Web Progresivas</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+         <h3>Aplicaciones Web Progresivas</h3>
+         <nav>
+             <ul>
+                 <li><a href="index.html">Página Principal</a></li>
+                 <li><a href="Conceptos.html">Conceptos</a></li>
+                 <li><a href="Objetivos.html">Objetivos</a></li>
+                 <li><a href="Ejemplos.html">Ejemplos</a></li>
+             </ul>
+         </nav>
+        </div>
+<div>
+            <img src="conceptos.jpg" alt="" width="100%">
+    </header>
+<table width="100%" border="0" margin="0" padding="0">
+    <tr>
+        <td id="medio">
+            <table align="center" margin="2px">
+                <tr>
+                    <td><br><center><img src="service.jpg" alt=""  width="90%" height="90%"></center></br></td>
+                    <td><br><center><h2 id="segundas">Service Workers</h2></center></a></br>
+                    <p id="negro">
+                            Un service worker, es un proxy entre el navegador y el servidor. A un service worker le <p id="negro">puedes decir que responda de X o Y manera a las peticiones, sin llegar al servidor, puede <p id="negro"> interceptar las peticiones, delegarlas al servidor, o rechazarlas... lo que quieras. ¿Cuál es  <p id="negro"> el beneficio? Las intenciones de los service workers son 2: <p id="negro">
+                            <ul>
+                                <li id="negro">Acceso offline a la página</li>
+                                <li id="negro">Sitios web que cargan rapidísimo (incluso más rápido que las apps nativas)</li>
+                            </ul>
+                            <p id="negro">
+                                Para cumplir los dos objetivos antes mencionados, ServiceWorker hace uso de 2 nuevos 
+                                <p id="negro">API's, fetchy cache. Fetch le permite manejar las peticiones que van de la app web al <p id="negro">servidor, mientras que Cache, le permite almacenar archivos en el Cache de tu <p id="negro">computadora.
+                    </p></td>   
+                </tr>
+                <tr>
+                    <td><center><img src="responsive.jpg" width="90%" height="90%"></center></td>
+                    <td><br><center><h2 id="segundas">Responsive design</h2></center></a></br>
+                        Responsive Design es una técnica con la que tus aplicaciones se adaptan al tamaño de <p> pantalla en que se ejecutan, no hay mucho qué decir, es un concepto bien establecido y <p> conocido. <p>
+                        Algunos conceptos que se aplican en Responsive Design, es el diseño fluido, en lugar de <p> usar tamaños fijos y posiciones absolutas, desarrollamos nuestro layout de tal manera <p> que fluya con la pantalla. Otro tema interesante es el diseño Mobile First, en donde <p>diseñamos el contenido, primero, con la forma en que se mostrará en móviles, y luego <p>incrementamos conforme la pantalla lo hace, este es un enfoque que trabaja a la inversa <p>de como la mayoría de los frontends programan. Siguiente, tenemos a las Media Queries, <p>que son reglas de CSS que se aplican únicamente a ciertos tamaños o tipos de pantalla. <p>
+                        Responsive Design no es solo una cuestión de tamaños, también es una cuestión de features. <p> ¿Cómo se ve tu página web en un app de lectura como Pocket? ¿En un lector de <p> feeds como Feedly? ¿Cómo se ve si intento imprimirla?. </td>
+                </tr>   
+                <tr>
+                        <td><center><img src="apis.jpg" width="90%" height="90%"></center></td>
+                        <td><br><center><h2 id="segundas">Apis</h2></center></a></br>
+                            Una API es un conjunto de definiciones y protocolos que se utiliza para desarrollar e <p> integrar el software de las aplicaciones. API significa interfaz de programación de <p> aplicaciones. <p>
+                            Las API permiten que sus productos y servicios se comuniquen con otros, sin necesidad <p>de saber cómo están implementados. Esto simplifica el desarrollo de las aplicaciones y  <p>permite ahorrar tiempo y dinero. Las API le otorgan flexibilidad; simplifican el diseño, la <p> administración y el uso de las aplicaciones, y proporcionan oportunidades de innovación, <p>o cual es ideal al momento de diseñar herramientas y productos nuevos (o de gestionar <p>los actuales). <p>
+                            A veces, las API se consideran como contratos, con documentación que representa un <p> acuerdo entre las partes: si una de las partes envía una solicitud remota con cierta <p> estructura en particular, esa misma estructura determinará cómo responderá el <p> software de la otra parte.
+                            </td>
+      
+                    </tr>   
+                            <td><img src="appshell.jpg" width="90%" height="90%"> </center></td>
+                            <td><br><center><h2 id="segundas">Apshell</h2></center></a></br>
+                                Una arquitectura de shell de aplicación (o shell de app) es una forma de crear una <p>Progressive Web App que se carga al instante y de manera confiable en la pantalla de tu <p>usuario, en forma similar a lo que ves en las apps nativas. <p>
+                                La "shell" de app es la mínima cantidad de HTML, CSS y JavaScript requeridos para activar <p>la interfaz de usuario, y cuando se almacena en caché sin conexión puede asegurar un <p>rendimiento instantáneo y de alta confiabilidad para los usuarios en las visitas <p>repetidas. De esta manera, la shell de la app no se carga desde la red en cada visita del <p> usuario. Solo se carga el contenido necesario de la red. <p>
+                                Para apps de una sola página con arquitecturas con mucho código JavaScript, una shell <p>de app es un enfoque acertado. Este enfoque se basa en almacenar la shell agresivamente <p>en caché (utilizando un service worker para lograr que la app funcione. Luego, el <p>contenido dinámico carga cada página a través de JavaScript. Una shell de app es útil <p>para enviar el HTML inicial a la pantalla en forma rápida y sin utilizar una red.
+                              </td>
+                            </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</div>
+<footer>
+ Rocío Maldonado 5J 
+</footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
